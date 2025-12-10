@@ -1,0 +1,19 @@
+# squirrel.custom.yaml
+# encoding: utf-8
+
+patch:
+  style/candidate_list_layout: linear
+  style/color_scheme: solarized_rock
+  show_notifications_when: never
+  app_options:
+    com.microsoft.VSCode:
+      vim_mode: true
+    com.jetbrains.intellij:
+      ascii_mode: true
+      vim_mode: true
+    net.kovidgoyal.kitty:
+      ascil_mode: true
+      vim_mode: true
+    dev.zed.Zed:
+      ascil_mode: true
+      vim_mode: true

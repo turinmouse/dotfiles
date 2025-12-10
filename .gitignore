@@ -1,3 +1,6 @@
 *.mdb
-zed/prompts/
-zed/conversations/
+zed/prompts/*
+zed/conversations/*
+Rime/build/*
+Rime/luna_pinyin.userdb/*
+Rime/sync/*
