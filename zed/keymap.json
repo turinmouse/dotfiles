@@ -1,0 +1,30 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      "space g": ["task::Spawn", { "task_name": "Lazygit" }],
+      "space f f": "file_finder::Toggle",
+      "space f g": "workspace::NewSearch",
+      "space f s": "outline::Toggle"
+    }
+  },
+  {
+    "bindings": {
+      "cmd-o": null
+    }
+  },
+  {
+    "context": "((VimControl && !menu) || (!Editor && !Terminal))",
+    "bindings": {
+      "shift-l": "vim::GoToTab",
+      "shift-h": "vim::GoToPreviousTab"
+    }
+  }
+]
